@@ -1,0 +1,11 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule Gry-za-free-do-pobrania.html
+RewriteRule Gry-płatne-(-95%)-do-pobrania.html
+RewriteRule Zgłoś-problem.html
+RewriteRule płatności-za-gry.html
